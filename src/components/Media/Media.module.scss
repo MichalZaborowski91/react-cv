@@ -1,0 +1,21 @@
+.media {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 50px;
+  z-index: 9999;
+}
+
+.icon {
+  fill: white;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
+}
+
+.icon:focus,
+.icon:hover {
+  fill: rgb(251, 109, 58);
+  transform: scale(1.2);
+}

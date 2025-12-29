@@ -1,0 +1,72 @@
+.container {
+  max-width: 400px;
+  height: 270px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  position: relative;
+  background-image: url("../../images/windowBackground/windowBackgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 230px;
+  margin: 0 auto;
+
+  &__button {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 5px;
+  }
+
+  &__button:focus,
+  &__button:hover {
+    background-color: rgb(251, 109, 58);
+    transform: scale(1.05);
+  }
+}
+
+.headBox {
+  border-bottom: 3px solid rgb(251, 109, 58);
+  width: 180px;
+  margin-left: 15px;
+
+  &__head {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-image: url("../../images/windowBackground/windowBackgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+
+  &__icon {
+    margin-left: 15px;
+  }
+
+  &__date {
+    color: rgb(251, 109, 58);
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px;
+}
