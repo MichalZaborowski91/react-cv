@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.2fed0f19.css",
+    "main.css": "/react-cv/static/css/main.d10c8769.css",
     "main.js": "/react-cv/static/js/main.81022212.js",
     "static/media/homeBackground.jpg": "/react-cv/static/media/homeBackground.725a160254d39e72b9df.jpg",
     "static/media/england.jpg": "/react-cv/static/media/england.daa7111c7c1a38cdba3d.jpg",
@@ -9,13 +9,13 @@
     "static/media/email.svg": "/react-cv/static/media/email.2bba350d28bca374a3b7a413b437c3bd.svg",
     "static/media/linkedin.svg": "/react-cv/static/media/linkedin.fbf0aff4d0ec3debb14e15f36bf28f89.svg",
     "static/media/github.svg": "/react-cv/static/media/github.ac93f1fb5aaa312d2e6d5364c0a8ba03.svg",
-    "static/media/education.svg": "/react-cv/static/media/education.2c49d1e352c2e9d510a301319a6c9b4f.svg",
     "index.html": "/react-cv/index.html",
-    "main.2fed0f19.css.map": "/react-cv/static/css/main.2fed0f19.css.map",
+    "static/media/education.svg": "/react-cv/static/media/education.2c49d1e352c2e9d510a301319a6c9b4f.svg",
+    "main.d10c8769.css.map": "/react-cv/static/css/main.d10c8769.css.map",
     "main.81022212.js.map": "/react-cv/static/js/main.81022212.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fed0f19.css",
+    "static/css/main.d10c8769.css",
     "static/js/main.81022212.js"
   ]
 }
