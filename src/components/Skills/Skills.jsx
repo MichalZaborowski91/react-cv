@@ -9,11 +9,12 @@ export const Skills = ({ onExpandChange }) => {
   };
 
   useEffect(() => {
+    console.log(isExpanded);
     onExpandChange(isExpanded);
   }, [isExpanded, onExpandChange]);
 
   return (
-    <div className={`${style.container} ${isExpanded ? style.expand : ""}`}>
+    <div className={`${style.container} ${isExpanded ? "" : style.expand}`}>
       <div className={style.headBox}>
         <h2 className={style.headBox__head}>Skills</h2>
       </div>
@@ -63,7 +64,7 @@ export const Skills = ({ onExpandChange }) => {
         className={style.container__button}
         onClick={handleExpand}
       >
-        {isExpanded ? "Expand" : "Collapse"}
+        {isExpanded ? "Collapse" : "Expand"}
       </button>
     </div>
   );
