@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.0926f40d.css",
-    "main.js": "/react-cv/static/js/main.d925e1e9.js",
+    "main.css": "/react-cv/static/css/main.9db3293a.css",
+    "main.js": "/react-cv/static/js/main.0fee2ebf.js",
     "static/media/me.png": "/react-cv/static/media/me.e52b87e17d813ca85d0f.png",
     "static/media/homeBackground.jpg": "/react-cv/static/media/homeBackground.725a160254d39e72b9df.jpg",
     "static/media/england.jpg": "/react-cv/static/media/england.daa7111c7c1a38cdba3d.jpg",
@@ -12,11 +12,12 @@
     "static/media/github.svg": "/react-cv/static/media/github.ac93f1fb5aaa312d2e6d5364c0a8ba03.svg",
     "index.html": "/react-cv/index.html",
     "static/media/education.svg": "/react-cv/static/media/education.2c49d1e352c2e9d510a301319a6c9b4f.svg",
-    "main.0926f40d.css.map": "/react-cv/static/css/main.0926f40d.css.map",
-    "main.d925e1e9.js.map": "/react-cv/static/js/main.d925e1e9.js.map"
+    "static/media/goBack.svg": "/react-cv/static/media/goBack.5ab34d12feb9896fe71605c3f069d772.svg",
+    "main.9db3293a.css.map": "/react-cv/static/css/main.9db3293a.css.map",
+    "main.0fee2ebf.js.map": "/react-cv/static/js/main.0fee2ebf.js.map"
   },
   "entrypoints": [
-    "static/css/main.0926f40d.css",
-    "static/js/main.d925e1e9.js"
+    "static/css/main.9db3293a.css",
+    "static/js/main.0fee2ebf.js"
   ]
 }
