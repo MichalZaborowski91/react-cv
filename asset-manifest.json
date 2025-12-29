@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.a690f593.css",
+    "main.css": "/react-cv/static/css/main.40868748.css",
     "main.js": "/react-cv/static/js/main.5b1c89b3.js",
     "static/media/homeBackground.jpg": "/react-cv/static/media/homeBackground.725a160254d39e72b9df.jpg",
     "static/media/england.jpg": "/react-cv/static/media/england.daa7111c7c1a38cdba3d.jpg",
@@ -11,11 +11,11 @@
     "static/media/github.svg": "/react-cv/static/media/github.ac93f1fb5aaa312d2e6d5364c0a8ba03.svg",
     "index.html": "/react-cv/index.html",
     "static/media/education.svg": "/react-cv/static/media/education.2c49d1e352c2e9d510a301319a6c9b4f.svg",
-    "main.a690f593.css.map": "/react-cv/static/css/main.a690f593.css.map",
+    "main.40868748.css.map": "/react-cv/static/css/main.40868748.css.map",
     "main.5b1c89b3.js.map": "/react-cv/static/js/main.5b1c89b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a690f593.css",
+    "static/css/main.40868748.css",
     "static/js/main.5b1c89b3.js"
   ]
 }
