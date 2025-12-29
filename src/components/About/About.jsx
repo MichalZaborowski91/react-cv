@@ -12,7 +12,6 @@ export const About = () => {
         aliquid explicabo ea eum error dicta pariatur et facere iusto incidunt
         sequi quidem assumenda id omnis. Repellendus!
       </p>
-
       <button type="button" className={style.container__button}>
         Read more
       </button>

@@ -1,6 +1,7 @@
 .container {
+  width: 100%;
   max-width: 400px;
-  height: 250px;
+  height: 270px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
@@ -8,8 +9,6 @@
   background-image: url("../../images/windowBackground/windowBackgroung.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  top: 260px;
-  margin: 0 auto;
 
   &__description {
     margin-left: 15px;
@@ -44,5 +43,6 @@
     text-align: center;
     padding-top: 15px;
     margin-bottom: 5px;
+    margin-top: 0px;
   }
 }

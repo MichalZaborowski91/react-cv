@@ -17,7 +17,7 @@ export const Education = () => {
         </div>
         <div className={style.card}>
           <EduIcon className={style.card__icon} />
-          <h3 className={style.card__head}>Technikum Nr 3</h3>
+          <h3 className={style.card__head}>Technikum</h3>
           <p className={style.card__date}>
             <b>2007 - 2011</b>
           </p>

@@ -9,7 +9,6 @@ export const Skills = ({ onExpandChange }) => {
   };
 
   useEffect(() => {
-    console.log(isExpanded);
     onExpandChange(isExpanded);
   }, [isExpanded, onExpandChange]);
 
@@ -27,7 +26,7 @@ export const Skills = ({ onExpandChange }) => {
         </li>
         <li>
           <b>Tools & Platforms:</b> Git, GitHub, Parcel, Npm, MongoDB Compass,
-          Insomnia, Postman, Trello
+          Insomnia, Postman, Trello, Netlify
         </li>
         <li>
           <b>Databases:</b> MongoDB Basics
@@ -38,7 +37,7 @@ export const Skills = ({ onExpandChange }) => {
           Architecture (BEM)
         </li>
       </ul>
-      <div className={`${style.headBox} ${isExpanded ? style.hide : ""}`}>
+      <div className={`${style.headBox} ${isExpanded ? "" : style.hide}`}>
         <h2 className={style.headBox__head}>Languages</h2>
       </div>
       <ul className={style.langList}>
@@ -52,12 +51,12 @@ export const Skills = ({ onExpandChange }) => {
       <div className={style.headBox}>
         <h2 className={style.headBox__head}>Soft Skills</h2>
       </div>
-      <ul>
-        <li>Communication</li>
-        <li>Teamwork</li>
-        <li>Problem Solving</li>
-        <li>Organization</li>
+      <ul className={style.softSkills}>
         <li>Attention to Detail</li>
+        <li>Problem Solving</li>
+        <li>Communication</li>
+        <li>Organization</li>
+        <li>Teamwork</li>
       </ul>
       <button
         type="button"
