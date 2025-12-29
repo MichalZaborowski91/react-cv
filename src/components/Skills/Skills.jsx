@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./Skills.module.scss";
 
-export const Skills = ({ onExpandChange }) => {
+export const Skills = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const handleExpand = () => {
@@ -9,8 +9,8 @@ export const Skills = ({ onExpandChange }) => {
   };
 
   useEffect(() => {
-    onExpandChange(isExpanded);
-  }, [isExpanded, onExpandChange]);
+    setIsExpanded(isExpanded);
+  }, [isExpanded]);
 
   return (
     <div className={`${style.container} ${isExpanded ? "" : style.expand}`}>

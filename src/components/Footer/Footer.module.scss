@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 2px rgb(251, 109, 58) solid;
+}
+
+.downloadButton {
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: #202c47;
+}
+
+.downloadButton > span {
+  color: white;
+}
+
+.downloadButton:focus,
+.downloadButton:hover {
+  background-color: rgb(251, 109, 58);
+  transform: scale(1.05);
+}

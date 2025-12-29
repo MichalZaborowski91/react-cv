@@ -3,6 +3,12 @@
   justify-content: space-between;
   gap: 10px;
   z-index: 9999;
+
+  &--footer {
+    svg {
+      fill: #202c47;
+    }
+  }
 }
 
 .icon {

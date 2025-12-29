@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  background-image: url("../../images/windowBackground/windowBackgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &__description {
+    margin: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.headBox {
+  border-bottom: 3px solid rgb(251, 109, 58);
+  width: 180px;
+  margin-left: 15px;
+  &__head {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+}
+
+.backButton {
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.backButton:focus,
+.backButton:hover {
+  background-color: rgb(251, 109, 58);
+  transform: scale(1.05);
+}

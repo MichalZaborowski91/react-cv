@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  min-height: 1900px;
+  height: auto;
   background-image: url("../../images/homeBackground/homeBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,9 +8,6 @@
   border-radius: 5px;
   padding: 30px 20px;
   position: relative;
-}
-.containerExpand {
-  height: 2200px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
