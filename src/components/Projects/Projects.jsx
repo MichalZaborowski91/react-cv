@@ -40,6 +40,7 @@ export const Projects = () => {
           <iframe
             src="https://aptbergantin.netlify.app/"
             scrolling="no"
+            title="Preview of my project"
           ></iframe>
         </div>
         <div className={style.headerBox}>
@@ -67,6 +68,7 @@ export const Projects = () => {
           <iframe
             src="https://fascinating-babka-0b548d.netlify.app/"
             scrolling="no"
+            title="Preview of my project"
           ></iframe>
         </div>
       </div>
