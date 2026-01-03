@@ -22,7 +22,7 @@ export const About = () => {
         onClick={handleClick}
         className={style.container__button}
       >
-        Read more
+        Read More
       </button>
     </div>
   );

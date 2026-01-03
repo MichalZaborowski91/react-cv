@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.head {
+  text-align: center;
+  color: white;
+  text-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}

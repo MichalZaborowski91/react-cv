@@ -1,12 +1,7 @@
-import { ReactComponent as GoBack } from "../../images/icons/goBack.svg";
-import { useNavigate } from "react-router-dom";
+import { GoBackButton } from "../GoBackButton/GoBackButton";
 import style from "./ReadMore.module.scss";
 
 export const ReadMore = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/");
-  };
   return (
     <div>
       <div className={style.container}>
@@ -26,10 +21,7 @@ export const ReadMore = () => {
           development, both independently and within a team.
         </p>
       </div>
-      <button type="button" onClick={handleClick} className={style.backButton}>
-        <GoBack className={style.backButton__icon} />
-        <span>Go back</span>
-      </button>
+      <GoBackButton />
     </div>
   );
 };
