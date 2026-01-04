@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.226d4601.css",
-    "main.js": "/react-cv/static/js/main.caae31b2.js",
+    "main.css": "/react-cv/static/css/main.ab94ff16.css",
+    "main.js": "/react-cv/static/js/main.48ecf914.js",
     "static/media/me.png": "/react-cv/static/media/me.e52b87e17d813ca85d0f.png",
     "static/media/Michal Zaborowski GOIT Cert 3.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 3.895fffdd1ee508d036df.jpg",
     "static/media/Michal Zaborowski GOIT Cert 1.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 1.f1194084abf62e1f8388.jpg",
     "static/media/Michal Zaborowski GOIT Cert 2.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 2.1cfdecaef0459e925f27.jpg",
     "static/media/homeBackground.jpg": "/react-cv/static/media/homeBackground.725a160254d39e72b9df.jpg",
     "static/media/Certificate.jpg": "/react-cv/static/media/Certificate.3df8bdc27be07913773f.jpg",
-    "static/media/england.jpg": "/react-cv/static/media/england.daa7111c7c1a38cdba3d.jpg",
+    "static/media/england.jpg": "/react-cv/static/media/england.ebb307ef4c455744345d.jpg",
     "static/media/windowBackgroung.jpg": "/react-cv/static/media/windowBackgroung.74f4927f457307d01eca.jpg",
     "static/media/poland.jpg": "/react-cv/static/media/poland.36b684fd0d7b90adf480.jpg",
     "static/media/email.svg": "/react-cv/static/media/email.2bba350d28bca374a3b7a413b437c3bd.svg",
@@ -16,14 +16,15 @@
     "static/media/linkedin.svg": "/react-cv/static/media/linkedin.fbf0aff4d0ec3debb14e15f36bf28f89.svg",
     "static/media/github.svg": "/react-cv/static/media/github.ac93f1fb5aaa312d2e6d5364c0a8ba03.svg",
     "index.html": "/react-cv/index.html",
-    "static/media/education.svg": "/react-cv/static/media/education.2c49d1e352c2e9d510a301319a6c9b4f.svg",
+    "static/media/sadFace.svg": "/react-cv/static/media/sadFace.a15f08c2ac2cdac4169cd95f524e2db5.svg",
     "static/media/github2.svg": "/react-cv/static/media/github2.ccd75ceee1292b6cdd181eb2ba2af339.svg",
     "static/media/goBack.svg": "/react-cv/static/media/goBack.5ab34d12feb9896fe71605c3f069d772.svg",
-    "main.226d4601.css.map": "/react-cv/static/css/main.226d4601.css.map",
-    "main.caae31b2.js.map": "/react-cv/static/js/main.caae31b2.js.map"
+    "static/media/home.svg": "/react-cv/static/media/home.1754ceb6e3ecb9ef75bf79693f75a45c.svg",
+    "main.ab94ff16.css.map": "/react-cv/static/css/main.ab94ff16.css.map",
+    "main.48ecf914.js.map": "/react-cv/static/js/main.48ecf914.js.map"
   },
   "entrypoints": [
-    "static/css/main.226d4601.css",
-    "static/js/main.caae31b2.js"
+    "static/css/main.ab94ff16.css",
+    "static/js/main.48ecf914.js"
   ]
 }
