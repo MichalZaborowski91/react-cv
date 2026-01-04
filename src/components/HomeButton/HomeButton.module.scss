@@ -1,4 +1,4 @@
-.backButton {
+.homeButton {
   width: 120px;
   height: 30px;
   cursor: pointer;
@@ -13,15 +13,14 @@
   align-items: center;
   gap: 5px;
   background-color: #d5d6e5;
-
   &__icon {
     width: 20px;
     height: 20px;
   }
 }
 
-.backButton:focus,
-.backButton:hover {
+.homeButton:focus,
+.homeButton:hover {
   background-color: rgb(251, 109, 58);
   transform: scale(1.05);
 }

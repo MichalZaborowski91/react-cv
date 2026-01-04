@@ -6,12 +6,12 @@ import style from "./About.module.scss";
 
 export const About = () => {
   return (
-    <div className={style.container}>
+    <div className={style.pageAbout}>
       <Header />
-      <div className={style.pictureContainer}>
+      <div>
         <Picture />
       </div>
-      <div className={style.cardsContainer}>
+      <div>
         <ReadMore />
       </div>
       <Footer />

@@ -3,8 +3,8 @@ import style from "./Picture.module.scss";
 
 export const Picture = () => {
   return (
-    <div className={style.container}>
-      <img src={photo} alt="My photo" className={style.container__image} />
+    <div className={style.picture}>
+      <img src={photo} alt="My photo" className={style.picture__image} />
     </div>
   );
 };

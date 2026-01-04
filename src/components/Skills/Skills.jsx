@@ -13,11 +13,13 @@ export const Skills = () => {
   }, [isExpanded]);
 
   return (
-    <div className={`${style.container} ${isExpanded ? "" : style.expand}`}>
-      <div className={style.headBox}>
-        <h2 className={style.headBox__head}>Skills</h2>
+    <div
+      className={`${style.skills} ${isExpanded ? "" : style.skillsCollapsed}`}
+    >
+      <div className={style.skills__headBox}>
+        <h2 className={style.skills__title}>Skills</h2>
       </div>
-      <ul className={style.list}>
+      <ul className={style.skills__skillsList}>
         <li>
           <b>Frontend fundamentals:</b> HTML, CSS/SCSS, JavaScript
         </li>
@@ -37,10 +39,14 @@ export const Skills = () => {
           Architecture (BEM)
         </li>
       </ul>
-      <div className={`${style.headBox} ${isExpanded ? "" : style.hide}`}>
-        <h2 className={style.headBox__head}>Languages</h2>
+      <div
+        className={`${style.skills__headBox} ${
+          isExpanded ? "" : style.hideLangTitle
+        }`}
+      >
+        <h2 className={style.skills__title}>Languages</h2>
       </div>
-      <ul className={style.langList}>
+      <ul className={style.skills__langList}>
         <li>
           <b>English:</b> B1
         </li>
@@ -48,10 +54,10 @@ export const Skills = () => {
           <b>Polish:</b> Native
         </li>
       </ul>
-      <div className={style.headBox}>
-        <h2 className={style.headBox__head}>Soft Skills</h2>
+      <div className={style.skills__headBox}>
+        <h2 className={style.skills__title}>Soft Skills</h2>
       </div>
-      <ul className={style.softSkills}>
+      <ul className={style.skills__softSkillsList}>
         <li>Attention to Detail</li>
         <li>Problem Solving</li>
         <li>Communication</li>
@@ -60,7 +66,7 @@ export const Skills = () => {
       </ul>
       <button
         type="button"
-        className={style.container__button}
+        className={style.skills__button}
         onClick={handleExpand}
       >
         {isExpanded ? "Collapse" : "Expand"}

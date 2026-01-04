@@ -4,11 +4,11 @@ import style from "./ReadMore.module.scss";
 export const ReadMore = () => {
   return (
     <div>
-      <div className={style.container}>
-        <div className={style.headBox}>
-          <h2 className={style.headBox__head}>About me</h2>
+      <div className={style.readMore}>
+        <div className={style.readMore__headBox}>
+          <h2 className={style.readMore__title}>About me</h2>
         </div>
-        <p className={style.container__description}>
+        <p className={style.readMore__description}>
           I am a frontend developer passionate about creating elegant and
           functional web applications. My experience includes JavaScript, React,
           Node.js, and building interactive interfaces that perform smoothly

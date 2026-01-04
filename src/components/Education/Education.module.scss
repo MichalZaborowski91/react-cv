@@ -1,4 +1,4 @@
-.container {
+.education {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -9,6 +9,50 @@
   background-image: url("../../images/windowBackground/windowBackgroung.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  &__headBox {
+    border-bottom: 3px solid rgb(251, 109, 58);
+    width: 180px;
+    margin-left: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    height: 200px;
+  }
+
+  &__card {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../images/windowBackground/windowBackgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    padding: 15px;
+  }
+
+  &__cardTitle {
+    margin: 0;
+  }
+
+  &__cardDate {
+    color: rgb(251, 109, 58);
+    margin: 0;
+  }
 
   &__button {
     width: 120px;
@@ -29,44 +73,4 @@
     background-color: rgb(251, 109, 58);
     transform: scale(1.05);
   }
-}
-
-.headBox {
-  border-bottom: 3px solid rgb(251, 109, 58);
-  width: 180px;
-  margin-left: 15px;
-  &__head {
-    text-align: center;
-    padding-top: 15px;
-    margin-bottom: 5px;
-    margin-top: 0px;
-  }
-}
-
-.card {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  background-image: url("../../images/windowBackground/windowBackgroung.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
-
-  &__icon {
-    margin-left: 15px;
-  }
-
-  &__date {
-    color: rgb(251, 109, 58);
-  }
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin: 15px;
 }

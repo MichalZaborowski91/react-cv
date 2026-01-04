@@ -7,11 +7,11 @@ export const About = () => {
     navigate("/about");
   };
   return (
-    <div className={style.container}>
-      <div className={style.headBox}>
-        <h2 className={style.headBox__head}>About me</h2>
+    <div className={style.about}>
+      <div className={style.about__headBox}>
+        <h2 className={style.about__title}>About me</h2>
       </div>
-      <p className={style.container__description}>
+      <p className={style.about__description}>
         Creative frontend developer with experience in JavaScript, React, and
         Node.js. Passionate about building responsive and intuitive interfaces
         that combine aesthetics with functionality. I enjoy improving my skills
@@ -20,9 +20,9 @@ export const About = () => {
       <button
         type="button"
         onClick={handleClick}
-        className={style.container__button}
+        className={style.about__button}
       >
-        Read More
+        <span>Read More</span>
       </button>
     </div>
   );

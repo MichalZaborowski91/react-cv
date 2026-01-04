@@ -7,13 +7,13 @@ import { GoBackButton } from "../GoBackButton/GoBackButton";
 
 export const Certs = () => {
   return (
-    <div className={style.container}>
-      <h2 className={style.head}>GoIT Full Stack Developer Cert</h2>
-      <img src={firstGoIT} alt="cert" className={style.image} />
-      <img src={secondGoIT} alt="cert" className={style.image} />
-      <img src={thirdGoIT} alt="cert" className={style.image} />
-      <h2 className={style.head}>IT Technical Cert</h2>
-      <img src={itTech} alt="cert" className={style.image} />
+    <div className={style.certs}>
+      <h2 className={style.certs__title}>GoIT Full Stack Developer Cert</h2>
+      <img src={firstGoIT} alt="cert" className={style.certs__image} />
+      <img src={secondGoIT} alt="cert" className={style.certs__image} />
+      <img src={thirdGoIT} alt="cert" className={style.certs__image} />
+      <h2 className={style.certs__title}>IT Technical Cert</h2>
+      <img src={itTech} alt="cert" className={style.certs__image} />
       <GoBackButton />
     </div>
   );

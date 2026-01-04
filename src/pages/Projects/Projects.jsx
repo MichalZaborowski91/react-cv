@@ -5,7 +5,7 @@ import style from "./Projects.module.scss";
 
 export const Projects = () => {
   return (
-    <div className={style.container}>
+    <div className={style.pageProjects}>
       <Header />
       <GoBackButton />
       <Footer />

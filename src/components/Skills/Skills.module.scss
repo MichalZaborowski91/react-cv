@@ -1,4 +1,4 @@
-.container {
+.skills {
   background-color: white;
   border-radius: 10px;
   box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
@@ -8,6 +8,66 @@
   background-size: cover;
   width: 100%;
   max-width: 400px;
+
+  &__headBox {
+    border-bottom: 3px solid rgb(251, 109, 58);
+    width: 180px;
+    margin-left: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  &__skillsList {
+    list-style: none;
+    padding-left: 0px;
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  &__langList {
+    list-style: none;
+    padding-left: 0;
+    margin: 15px;
+  }
+
+  &__langList li {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  &__langList li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__langList li:nth-child(1)::before {
+    background-image: url("../../images/england.jpg");
+    width: 25px;
+    height: 25px;
+  }
+
+  &__langList li:nth-child(2)::before {
+    background-image: url("../../images/poland.jpg");
+    width: 25px;
+    height: 25px;
+  }
+
+  &__softSkillsList {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+  }
 
   &__button {
     width: 120px;
@@ -30,71 +90,12 @@
   }
 }
 
-.headBox {
-  border-bottom: 3px solid rgb(251, 109, 58);
-  width: 180px;
-  margin-left: 15px;
-  &__head {
-    text-align: center;
-    padding-top: 15px;
-    margin-bottom: 5px;
-    margin-top: 0px;
-  }
-}
-
-.expand {
+.skillsCollapsed {
   height: 320px;
   overflow: hidden;
   transition: height 200ms ease-in-out;
 }
 
-.hide {
+.hideLangTitle {
   visibility: hidden;
-}
-
-.list {
-  list-style: none;
-  padding-left: 0px;
-  margin: 15px;
-  margin-bottom: 0px;
-  margin-top: 5px;
-}
-
-.langList {
-  list-style: none;
-  padding-left: 0;
-  margin: 15px;
-}
-
-.langList li {
-  position: relative;
-  padding-left: 30px;
-}
-
-.langList li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 80%;
-  transform: translateY(-50%);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.langList li:nth-child(1)::before {
-  background-image: url("../../images/england.jpg");
-  width: 25px;
-  height: 25px;
-}
-
-.langList li:nth-child(2)::before {
-  background-image: url("../../images/poland.jpg");
-  width: 25px;
-  height: 25px;
-}
-
-.softSkills {
-  padding-bottom: 15px;
-  padding-top: 15px;
-  margin: 0;
 }

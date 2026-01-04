@@ -1,4 +1,4 @@
-.container {
+.readMore {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -10,20 +10,21 @@
   background-size: cover;
   position: relative;
 
-  &__description {
-    margin: 15px;
-    padding-bottom: 15px;
+  &__headBox {
+    border-bottom: 3px solid rgb(251, 109, 58);
+    width: 180px;
+    margin: 0 auto;
   }
-}
 
-.headBox {
-  border-bottom: 3px solid rgb(251, 109, 58);
-  width: 180px;
-  margin: 0 auto;
-  &__head {
+  &__title {
     text-align: center;
     padding-top: 15px;
     margin-bottom: 5px;
     margin-top: 0px;
+  }
+
+  &__description {
+    margin: 15px;
+    padding-bottom: 15px;
   }
 }

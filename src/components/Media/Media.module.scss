@@ -4,23 +4,23 @@
   gap: 10px;
   z-index: 9999;
 
+  &__icon {
+    fill: white;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
+  }
+
+  &__icon:focus,
+  &__icon:hover {
+    fill: rgb(251, 109, 58);
+    transform: scale(1.2);
+  }
+
   &--footer {
     svg {
       fill: #202c47;
     }
   }
-}
-
-.icon {
-  fill: white;
-  width: 34px;
-  height: 34px;
-  cursor: pointer;
-  transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
-}
-
-.icon:focus,
-.icon:hover {
-  fill: rgb(251, 109, 58);
-  transform: scale(1.2);
 }

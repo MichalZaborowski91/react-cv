@@ -1,5 +1,12 @@
-.info {
-  height: 150px;
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  &__info {
+    height: 150px;
+  }
 
   &__title {
     font-size: 42px;
@@ -15,13 +22,6 @@
     text-align: center;
     margin: 0;
   }
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-between;
 }
 
 @media (max-width: 440px) {

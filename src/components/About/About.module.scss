@@ -1,4 +1,4 @@
-.container {
+.about {
   width: 100%;
   max-width: 400px;
   height: 250px;
@@ -9,6 +9,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  &__headBox {
+    border-bottom: 3px solid rgb(251, 109, 58);
+    width: 180px;
+    margin-left: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
 
   &__description {
     margin: 5px 15px;
@@ -32,17 +45,5 @@
   &__button:hover {
     background-color: rgb(251, 109, 58);
     transform: scale(1.05);
-  }
-}
-
-.headBox {
-  border-bottom: 3px solid rgb(251, 109, 58);
-  width: 180px;
-  margin-left: 15px;
-  &__head {
-    text-align: center;
-    padding-top: 15px;
-    margin-bottom: 5px;
-    margin-top: 0px;
   }
 }

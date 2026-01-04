@@ -1,0 +1,30 @@
+.pageNotFound {
+  width: 100%;
+  height: auto;
+  background-image: url("../../images/homeBackground/homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  &__icon {
+    width: 100px;
+    height: auto;
+    fill: #dadce8;
+  }
+  &__errorCode {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  }
+  &__description {
+    font-size: 26px;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  }
+}

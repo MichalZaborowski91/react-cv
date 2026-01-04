@@ -9,12 +9,12 @@ import { Footer } from "../../components/Footer/Footer";
 
 export const Home = () => {
   return (
-    <div className={style.container}>
+    <div className={style.pageHome}>
       <Header />
-      <div className={style.pictureContainer}>
+      <div className={style.pageHome__picture}>
         <Picture />
       </div>
-      <div className={style.cardsContainer}>
+      <div className={style.pageHome__components}>
         <About />
         <Skills />
         <Education />

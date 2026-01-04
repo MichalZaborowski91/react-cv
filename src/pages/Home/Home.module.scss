@@ -1,4 +1,4 @@
-.container {
+.pageHome {
   width: 100%;
   height: auto;
   background-image: url("../../images/homeBackground/homeBackground.jpg");
@@ -8,6 +8,19 @@
   border-radius: 5px;
   padding: 30px 20px;
   position: relative;
+
+  &__picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__components {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -18,24 +31,4 @@
     min-width: 1050px;
     max-width: 1200px;
   }
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  border: 3px solid green;
-  display: flex;
-  align-items: center;
-}
-.cardsContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-}
-
-.pictureContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }

@@ -2,6 +2,7 @@ import { ReactComponent as Email } from "../../images/icons/email.svg";
 import { ReactComponent as Github } from "../../images/icons/github.svg";
 import { ReactComponent as LinkedIn } from "../../images/icons/linkedin.svg";
 import style from "./Media.module.scss";
+
 export const Media = ({ variant }) => {
   return (
     <div
@@ -10,7 +11,7 @@ export const Media = ({ variant }) => {
       }`}
     >
       <a href="mailto:mkzaborowski@gmail.com" aria-label="Send email">
-        <Email className={style.icon} />
+        <Email className={style.media__icon} />
       </a>
 
       <a
@@ -19,7 +20,7 @@ export const Media = ({ variant }) => {
         rel="noopener noreferrer"
         aria-label="GitHub"
       >
-        <Github className={style.icon} />
+        <Github className={style.media__icon} />
       </a>
 
       <a
@@ -28,7 +29,7 @@ export const Media = ({ variant }) => {
         rel="noopener noreferrer"
         aria-label="LinkedIn"
       >
-        <LinkedIn className={style.icon} />
+        <LinkedIn className={style.media__icon} />
       </a>
     </div>
   );

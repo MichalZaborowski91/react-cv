@@ -1,8 +1,9 @@
-.container {
+.picture {
   overflow: hidden;
   width: 300px;
   height: 300px;
   position: relative;
+
   &__image {
     height: 500px;
     position: absolute;

@@ -1,4 +1,4 @@
-.container {
+.footer {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,27 +7,27 @@
   padding-top: 20px;
   margin-top: 20px;
   border-top: 2px rgb(251, 109, 58) solid;
-}
 
-.downloadButton {
-  width: 120px;
-  height: 30px;
-  cursor: pointer;
-  transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
-  border: none;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  display: block;
-  margin-bottom: 5px;
-  background-color: #202c47;
-}
+  &__downloadButton {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    background-color: #202c47;
+  }
 
-.downloadButton > span {
-  color: white;
-}
+  &__downloadButton > span {
+    color: white;
+  }
 
-.downloadButton:focus,
-.downloadButton:hover {
-  background-color: rgb(251, 109, 58);
-  transform: scale(1.05);
+  &__downloadButton:focus,
+  &__downloadButton:hover {
+    background-color: rgb(251, 109, 58);
+    transform: scale(1.05);
+  }
 }

@@ -5,7 +5,7 @@ import style from "./Certificates.module.scss";
 
 export const Certificates = () => {
   return (
-    <div className={style.container}>
+    <div className={style.pageCertificates}>
       <Header />
       <Certs />
       <Footer />
