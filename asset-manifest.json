@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.ab94ff16.css",
-    "main.js": "/react-cv/static/js/main.48ecf914.js",
+    "main.css": "/react-cv/static/css/main.4f77e373.css",
+    "main.js": "/react-cv/static/js/main.1b398af4.js",
     "static/media/me.png": "/react-cv/static/media/me.e52b87e17d813ca85d0f.png",
     "static/media/Michal Zaborowski GOIT Cert 3.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 3.895fffdd1ee508d036df.jpg",
     "static/media/Michal Zaborowski GOIT Cert 1.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 1.f1194084abf62e1f8388.jpg",
@@ -20,11 +20,11 @@
     "static/media/github2.svg": "/react-cv/static/media/github2.ccd75ceee1292b6cdd181eb2ba2af339.svg",
     "static/media/goBack.svg": "/react-cv/static/media/goBack.5ab34d12feb9896fe71605c3f069d772.svg",
     "static/media/home.svg": "/react-cv/static/media/home.1754ceb6e3ecb9ef75bf79693f75a45c.svg",
-    "main.ab94ff16.css.map": "/react-cv/static/css/main.ab94ff16.css.map",
-    "main.48ecf914.js.map": "/react-cv/static/js/main.48ecf914.js.map"
+    "main.4f77e373.css.map": "/react-cv/static/css/main.4f77e373.css.map",
+    "main.1b398af4.js.map": "/react-cv/static/js/main.1b398af4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab94ff16.css",
-    "static/js/main.48ecf914.js"
+    "static/css/main.4f77e373.css",
+    "static/js/main.1b398af4.js"
   ]
 }
