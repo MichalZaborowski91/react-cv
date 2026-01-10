@@ -1,12 +1,11 @@
+@import "../../styles/mixins";
+
 .header {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-
-  &__info {
-    height: 150px;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 
   &__title {
     font-size: 42px;
@@ -24,10 +23,8 @@
   }
 }
 
-@media (max-width: 440px) {
+@include tablet {
   .header {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
 }

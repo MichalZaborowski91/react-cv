@@ -1,4 +1,4 @@
-.backButton {
+.button {
   width: 120px;
   height: 30px;
   cursor: pointer;
@@ -20,8 +20,8 @@
   }
 }
 
-.backButton:focus,
-.backButton:hover {
+.button:focus,
+.button:hover {
   background-color: rgb(251, 109, 58);
   transform: scale(1.05);
 }

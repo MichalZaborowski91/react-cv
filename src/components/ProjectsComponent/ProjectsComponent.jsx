@@ -1,10 +1,14 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { ReactComponent as Github2 } from "../../images/icons/github2.svg";
 import { ReactComponent as Link } from "../../images/icons/link.svg";
-import style from "./Projects.module.scss";
+import style from "./ProjectsComponent.module.scss";
 
-export const Projects = () => {
+export const ProjectsComponent = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const isProjectsPage = location.pathname === "/projects";
+
   const handleViewMore = () => {
     navigate("/projects");
   };
@@ -72,13 +76,15 @@ export const Projects = () => {
           ></iframe>
         </div>
       </div>
-      <button
-        type="button"
-        className={style.projects__button}
-        onClick={handleViewMore}
-      >
-        View More
-      </button>
+      {!isProjectsPage && (
+        <button
+          type="button"
+          className={style.projects__button}
+          onClick={handleViewMore}
+        >
+          View More
+        </button>
+      )}
     </div>
   );
 };

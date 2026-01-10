@@ -1,3 +1,5 @@
+@import "../../styles/mixins";
+
 .pageAbout {
   width: 100%;
   height: auto;
@@ -8,4 +10,15 @@
   border-radius: 5px;
   padding: 30px 20px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@include tablet {
+  .pageAbout {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }

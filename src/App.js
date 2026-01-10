@@ -4,8 +4,19 @@ import { About } from "./pages/About/About";
 import { Certificates } from "./pages/Certifcates/Certificates";
 import { Projects } from "./pages/Projects/Projects";
 import { NotFound } from "./pages/NotFound/NotFound";
+import Notiflix from "notiflix";
 
 function App() {
+  Notiflix.Notify.init({
+    width: "280px",
+    position: "center-top",
+    distance: "10px",
+    timeout: 2500,
+    fontSize: "16px",
+    cssAnimationStyle: "fade",
+    backgroundColor: "#202c47",
+    useIcon: true,
+  });
   return (
     <Routes>
       <Route path="/" element={<Home />} />

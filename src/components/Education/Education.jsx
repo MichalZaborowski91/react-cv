@@ -14,7 +14,7 @@ export const Education = () => {
       <div className={style.education__wrapper}>
         <div className={style.education__card}>
           <h3 className={style.education__cardTitle}>
-            GoIT Full Stack Developer Course
+            GoIT Full Stack Developer
           </h3>
           <p className={style.education__cardDate}>
             <b>2022 - 2023</b>

@@ -16,9 +16,12 @@
     border: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
-    display: block;
     margin-bottom: 5px;
     background-color: #202c47;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__downloadButton > span {

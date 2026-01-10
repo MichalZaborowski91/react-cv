@@ -1,0 +1,129 @@
+.practiceCard {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  position: relative;
+  background-image: url("../../images/windowBackground/windowBackgroung.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__headBox {
+    border-bottom: 3px solid rgb(251, 109, 58);
+    width: 180px;
+    margin-left: 15px;
+  }
+
+  &__title {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  &__headerBox {
+    display: flex;
+    align-items: center;
+  }
+
+  &__projectTitle {
+    margin: 0;
+    padding-right: 10px;
+  }
+
+  &__description {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  &__iconsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__iconLink {
+    height: 15px;
+    fill: #202c47;
+    margin-top: 3px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
+  }
+
+  &__iconLink:focus,
+  &__iconLink:hover {
+    fill: rgb(251, 109, 58);
+    transform: scale(1.25);
+  }
+
+  &__iconGit {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
+    rect {
+      transition: transform 200ms ease-in-out, fill 200ms ease-in-out;
+    }
+  }
+
+  &__iconGit rect {
+    fill: #202c47;
+  }
+
+  &__iconGit:focus,
+  &__iconGit:hover {
+    transform: scale(1.15);
+    rect {
+      fill: rgb(251, 109, 58);
+    }
+  }
+
+  &__frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__frame iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    width: 1200px;
+    height: 720px;
+    transform: translate(-50%, -50%) scale(0.21);
+    transform-origin: center;
+    border: none;
+    pointer-events: none;
+  }
+
+  &__button {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 5px;
+    background-color: #d5d6e5;
+    z-index: 999999;
+  }
+
+  &__button:focus,
+  &__button:hover {
+    background-color: rgb(251, 109, 58);
+    transform: scale(1.05);
+  }
+}

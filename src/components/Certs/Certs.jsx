@@ -9,10 +9,12 @@ export const Certs = () => {
   return (
     <div className={style.certs}>
       <h2 className={style.certs__title}>GoIT Full Stack Developer Cert</h2>
+      <p className={style.certs__description}>NFQ Level 6</p>
       <img src={firstGoIT} alt="cert" className={style.certs__image} />
       <img src={secondGoIT} alt="cert" className={style.certs__image} />
       <img src={thirdGoIT} alt="cert" className={style.certs__image} />
       <h2 className={style.certs__title}>IT Technical Cert</h2>
+      <p className={style.certs__description}>NFQ Level 5</p>
       <img src={itTech} alt="cert" className={style.certs__image} />
       <GoBackButton />
     </div>

@@ -1,3 +1,5 @@
+@import "../../styles/mixins";
+
 .pageNotFound {
   width: 100%;
   height: auto;
@@ -26,5 +28,12 @@
     font-size: 26px;
     margin: 0;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  }
+}
+
+@include tablet {
+  .pageNotFound {
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
