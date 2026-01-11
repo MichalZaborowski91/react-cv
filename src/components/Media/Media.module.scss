@@ -1,3 +1,5 @@
+@import "../../styles/colors";
+
 .media {
   display: flex;
   justify-content: space-between;
@@ -14,13 +16,13 @@
 
   &__icon:focus,
   &__icon:hover {
-    fill: rgb(251, 109, 58);
+    fill: var(--accent-color);
     transform: scale(1.2);
   }
 
   &--footer {
     svg {
-      fill: #202c47;
+      fill: var(--footer-color);
     }
   }
 }

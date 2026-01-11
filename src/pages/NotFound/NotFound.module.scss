@@ -1,4 +1,5 @@
 @import "../../styles/mixins";
+@import "../../styles/colors";
 
 .pageNotFound {
   width: 100%;
@@ -6,7 +7,7 @@
   background-image: url("../../images/homeBackground/homeBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 8px 15px 20px var(--shadow-color);
   border-radius: 5px;
   padding: 50px 20px;
   display: flex;
@@ -17,23 +18,30 @@
   &__icon {
     width: 100px;
     height: auto;
-    fill: #dadce8;
+    fill: var(--button-color);
   }
   &__errorCode {
     font-size: 50px;
     margin: 0;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px var(--shadow-color);
   }
   &__description {
     font-size: 26px;
     margin: 0;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px var(--shadow-color);
   }
 }
 
 @include tablet {
   .pageNotFound {
     max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@include desktop {
+  .pageNotFound {
+    max-width: 900px;
     margin: 0 auto;
   }
 }

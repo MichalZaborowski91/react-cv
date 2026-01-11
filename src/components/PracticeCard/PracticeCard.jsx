@@ -31,6 +31,9 @@ export const PracticeCard = () => {
             title="Preview of GitHub"
           ></iframe>
         </div>
+        <p>
+          Mini programs, functions and smart practice tasks saved in codesandbox
+        </p>
       </div>
     </div>
   );

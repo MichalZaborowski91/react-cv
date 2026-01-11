@@ -48,7 +48,7 @@ export const Skills = () => {
       </div>
       <ul className={style.skills__langList}>
         <li>
-          <b>English:</b> B1
+          <b>English:</b> B1/B2
         </li>
         <li>
           <b>Polish:</b> Native

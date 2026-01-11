@@ -1,17 +1,19 @@
+@import "../../styles/colors";
+
 .readMore {
   width: 100%;
   max-width: 400px;
   height: auto;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 8px 15px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 8px 15px 20px var(--shadow-color);
   background-image: url("../../images/windowBackground/windowBackgroung.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 
   &__headBox {
-    border-bottom: 3px solid rgb(251, 109, 58);
+    border-bottom: 3px solid var(--accent-color);
     width: 180px;
     margin: 0 auto;
   }

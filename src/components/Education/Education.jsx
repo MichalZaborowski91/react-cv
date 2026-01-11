@@ -21,9 +21,7 @@ export const Education = () => {
           </p>
         </div>
         <div className={style.education__card}>
-          <h3 className={style.education__cardTitle}>
-            IT Technical Secondary School
-          </h3>
+          <h3 className={style.education__cardTitle}>IT Technical School</h3>
           <p className={style.education__cardDate}>
             <b>2007 - 2011</b>
           </p>
