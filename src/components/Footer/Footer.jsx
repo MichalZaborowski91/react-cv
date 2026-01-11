@@ -16,7 +16,6 @@ export const Footer = () => {
         download="Michal Zaborowski CV.pdf"
         className={style.footer__downloadButton}
         onClick={handleDownloadMessage}
-        target="_blank"
       >
         <span>Download CV</span>
       </a>
