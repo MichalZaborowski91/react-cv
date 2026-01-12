@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cv/static/css/main.32ad003c.css",
-    "main.js": "/react-cv/static/js/main.06a5c168.js",
+    "main.js": "/react-cv/static/js/main.b51fcd33.js",
     "static/media/me.png": "/react-cv/static/media/me.e52b87e17d813ca85d0f.png",
     "static/media/Michal Zaborowski GOIT Cert 3.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 3.895fffdd1ee508d036df.jpg",
     "static/media/Michal Zaborowski GOIT Cert 1.jpg": "/react-cv/static/media/Michal Zaborowski GOIT Cert 1.f1194084abf62e1f8388.jpg",
@@ -21,10 +21,10 @@
     "static/media/goBack.svg": "/react-cv/static/media/goBack.5ab34d12feb9896fe71605c3f069d772.svg",
     "static/media/home.svg": "/react-cv/static/media/home.1754ceb6e3ecb9ef75bf79693f75a45c.svg",
     "main.32ad003c.css.map": "/react-cv/static/css/main.32ad003c.css.map",
-    "main.06a5c168.js.map": "/react-cv/static/js/main.06a5c168.js.map"
+    "main.b51fcd33.js.map": "/react-cv/static/js/main.b51fcd33.js.map"
   },
   "entrypoints": [
     "static/css/main.32ad003c.css",
-    "static/js/main.06a5c168.js"
+    "static/js/main.b51fcd33.js"
   ]
 }
